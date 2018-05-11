@@ -88,6 +88,8 @@ pub use buf::{
     Take,
 };
 
+pub mod unsync;
+
 mod bytes;
 mod debug;
 pub use bytes::{Bytes, BytesMut};
